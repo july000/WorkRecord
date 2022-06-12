@@ -13,7 +13,7 @@
     ```
     ![git diff](git_diff.png)
     [GIT Diff is saying 100644 → 100755 on many files](https://stackoverflow.com/questions/25672991/git-diff-is-saying-100644-%E2%86%92-100755-on-many-files)
-    [git add时create mode 100644到底是什么含义？](https://blog.csdn.net/flyd1005/article/details/43824473)
+    [git add时create mode 100644到底是什么含义？](https://blog.csdn.net/flyd1005/article/details/43824473)  
     **解决方法**
     ```
     git config --global core.filemode false
@@ -22,7 +22,7 @@
 **换行符问题**
     文本文件所使用的换行符，在不同的系统平台上是不一样的，unix下一般只有一个0x0A表示换行(“\n”），Windows下一般都是0x0D和0x0A两个字符(“\r\n”)。  
     安装windows版本的git或者torgoiseGit时，你可能已经进行过这样的配置，也许你当时并未知道那个选项是什么意思。下面这张图是不是有些眼熟呢？
-    ![git install](git_install.jpg) 
+    ![git install](git_install.jpg)   
     **解决方法**
     在windows执行以下命令:
     ```
